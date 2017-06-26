@@ -1,0 +1,8 @@
+﻿/*Mudando tamanho container padrão */
+.container {
+    max-width: 100rem;
+}
+.vcenter {
+    display: flex;
+    align-items: center;
+}
