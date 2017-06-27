@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Data;
 using System.Configuration;
+using Oracle.DataAccess.Client;
 
 public static class ConnectionClass
 {
-    /*private static String strConexao = ConfigurationManager.ConnectionStrings["OradbCon"].ConnectionString;
+    private static String strConexao = ConfigurationManager.ConnectionStrings["OradbCon"].ConnectionString;
     public static OracleConnection connection = new OracleConnection(strConexao);
     private static OracleCommand cmd;
     private static OracleDataAdapter da;
@@ -104,5 +105,5 @@ public static class ConnectionClass
         {
             throw ex;
         }
-    }*/
+    }
 }
