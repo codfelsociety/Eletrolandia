@@ -17,10 +17,10 @@
     <div id="top_area" class="container-fluid">
         <div class="row">
             <div class="container vcenter">
-                <div class="col-xs-5 col-sm-3">
-                    <asp:Image alt="Eletrolandia Logo" CssClass="img-fluid" Style="margin: 15px 0px; float: left;" ImageUrl="~/Images/banner3.png" runat="server" />
+                <div class=" col-sm-12">
+                    <asp:Image alt="Eletrolandia Logo" CssClass="img-fluid" Style="margin: 15px 0px; float: left;" ImageUrl="~/Images/6bc9b4b4-3c74-4b93-bd7c-3865cf27dc70.jpg" runat="server" />
                 </div>
-                <div class="col-xs-7 col-sm-9">
+                <div class=" col-sm-9">
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" aria-label="Close" placeholder="Search">
+                    <input class="form-control mr-sm-2" type="text" aria-label="Close" placeholder="Pesquise por um produto">
                     <button id="btnsearch"  class="btn btn-outline-primary my-2 my-sm-0" type="submit">
                         <img src="Images/Icons/search.svg" alt="Search"/>
                     </button>
