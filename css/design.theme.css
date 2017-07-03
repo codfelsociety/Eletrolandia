@@ -17,3 +17,11 @@
 .hidden {
     display:none;
 }
+
+/*Plano de fundo do site*/
+body {
+   background-image: url(https://wallpaperbrowse.com/media/images/High-Definition-Ultra-HD-Wallpaper.jpg); 
+   background-attachment:fixed;
+   background-size:cover;
+   background-position:center;
+}
